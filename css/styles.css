@@ -1,43 +1,133 @@
 * {
     font-family: 'Montserrat', sans-serif;
-}
-
-body {
+  }
+  
+  body {
     background-color: #252525;
     color: #FFF;
-}
-
-.primary-bg-color {
+  }
+  
+  .primary-bg-color {
     background-color: #252525;
-}
-
-.secondary-bg-color {
+  }
+  
+  .secondary-bg-color {
     background-color: #C09578;
-}
-
-.light-bg-color {
-    background-color: #FCF5EB;
-}
-
-.dark-bg-color {
+  }
+  
+  .light-bg-color {
+    background-color: #FCF5EB
+  }
+  
+  .dark-bg-color {
     background-color: #101010;
-}
-
-.primary-color {
+  }
+  
+  .primary-color {
     color: #C09578;
-}
+  }
+  
+  .secondary-color {
+    color: #626262;
+  }
+  
+  .light-color {
+    color: #FCF5EB
+  }
+  
+  /* NAVBAR */
+  #navbar .navbar-nav {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  #navbar .navbar-nav li {
+    margin-left: 1em;
+  }
+  
+  #navbar a,
+  #navbar button {
+    color: #FFF;
+  }
+  
+  #navbar li {
+    position: relative;
+  }
+  
+  #navbar i {
+    font-size: 20px;
+  }
+  
+  #navbar span {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #EF3636;
+    text-align: center;
+  }
+  
+  #bag-item span {
+    left: 20px;
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+  }
+  
+  @media(min-width: 768px) {
+    .navbar-brand {
+      text-align: left;
+    }
+  }
+  
+  #navbar-items {
+    justify-content: space-between;
+  }
+  
+  @media(min-width: 768px) {
+    #navbar-items {
+      display: flex;
+      min-width: 80%; 
+    }
+  }
+  
+  #search-form,
+  #news-form {
+    width: 100%;
+    margin: 2em 0;
+  }
 
-.secondary-color {
-    color: #626262
-}
+  @media(min-width: 768px) {
+    #search-form {
+      margin: 0;
+      min-width: 50%;
+    }
+  }
 
-.light-color {
-    color: #fcf5eb;
-}
+  #search-form {
+    border: 2px solid #626262;
+    border-radius: 3px;
+    padding: 5px 15px;
+  }
 
-/* NAVBAR */
+  #search-form input {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+  }
 
-#navbar .navbar-nav {
-    
-}
+  #search-form input:focus {
+    box-shadow: none;
+  }
 
+  #search-form input::placeholder {
+    color: #FFF;
+  }
+
+
+  
