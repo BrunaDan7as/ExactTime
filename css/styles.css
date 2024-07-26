@@ -352,3 +352,37 @@
     width: 90px;
     margin: 2em auto;
 }
+
+/*GALERIA*/
+
+#gallery .image-container {
+    background-size: cover;
+    background-position: center;
+    height: 225px;
+    cursor: pointer;
+    transition: .5s;
+    border: 3px solid #101010;
+}
+
+#gallery .image-container:hover {
+    border-color: #C09578;
+}
+
+#insta1 {
+    background-image: url('../img/insta1.jpg');
+}
+#insta2 {
+    background-image: url('../img/insta2.jpg');
+}
+#insta3 {
+    background-image: url('../img/insta3.jpg');
+}
+#insta4 {
+    background-image: url('../img/insta4.jpg');
+}
+#insta5 {
+    background-image: url('../img/insta5.jpg');
+}
+#insta6 {
+    background-image: url('../img/insta6.jpg');
+}
