@@ -289,3 +289,34 @@
     background-color: #C09578;
     border-color: #C09578;
 }
+
+/*BOTTOM BANNER*/
+
+#bottom-banner {
+    background-color: #101010;
+    padding: 6em;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+#bottom-banner .offer-subtitle,
+#bottom-banner h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#bottom-banner .btn {
+    margin: 2em;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+#bottom_banner img {
+    max-width: 175px;
+}
+
+@media(min-width: 768px) {
+    #bottom-banner h2 {
+        font-size: 6em;
+    }
+}
